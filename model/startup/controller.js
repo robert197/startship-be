@@ -19,9 +19,6 @@ class StartupController extends Controller {
                .then(collection => res.status(200).json(collection))
             }
          })
-         // .then(startups => res.send(startups))
-         
-         // find by query string
       }
    }
 
