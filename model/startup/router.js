@@ -3,7 +3,7 @@ const Router = require('express').Router
 const router = new Router()
 
 router.route('/')
-  .get((...args) => controller.find(...args))
+  .get((...args) => controller.findAndSearch(...args))
   .post((...args) => controller.create(...args))
 
 router.route('/:id')
